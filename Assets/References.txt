@@ -1,0 +1,4 @@
+Bug-8.svg
+Source: https://freesvg.org/index.php/pixel-bug
+License: Public Domain
+Date collected: 2021-11-07
