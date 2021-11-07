@@ -54,4 +54,4 @@ func start(pos):
 func _on_player_Area2D_body_entered(body):
 	hide() #Will disapear the player if hit
 	emit_signal("hit")
-	$CollisionShape2D.set_deffered("disabled", true)	#Disabling the CollisionShape, to ensure emit_signal() only once.
+	$CollisionShape2D.set_deferred("disabled", true)	#Disabling the CollisionShape, to ensure emit_signal() only once.
