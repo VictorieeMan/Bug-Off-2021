@@ -16,6 +16,7 @@ radius = 2.38184
 height = 3.48338
 
 [node name="mob_scorpionfly" type="RigidBody2D"]
+position = Vector2( -0.140305, 0 )
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource( 2 )

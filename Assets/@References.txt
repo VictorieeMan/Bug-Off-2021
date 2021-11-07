@@ -38,6 +38,11 @@ Source: https://fonts.google.com/specimen/Press+Start+2P?preview.text=Bug%20Off!
 License: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 Date collected: 2021-11-07
 
+And Now For That Massive Coronary.mp3
+Source: https://gamesounds.xyz/Public%20Domain/Cinematic/And%20Now%20For%20That%20Massive%20Coronary.mp3
+License: Public Domain https://creativecommons.org/licenses/publicdomain/
+Date collected: 2021-11-07
+
 <name_ref>
 Source: 
 License: 
