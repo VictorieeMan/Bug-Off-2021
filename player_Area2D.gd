@@ -36,9 +36,13 @@ func _process(delta):
 	position += velocity * delta
 	position.x = clamp(position.x, 0, screen_size.x)
 	position.y = clamp(position.y, 0, screen_size.y)
-
+	
+func start(pos):
+	position = pos
+	show()
+	$CollisionShape2D.disabled = false
 
 func _on_player_Area2D_body_entered(body):
 	hide() #Will disapear the player if hit
 	emit_signal("hit")
-	$CollisionShape2D.set_deffered("disabled", true)
+	$CollisionShape2D.set_deffered("disabled", true)	#Disabling the CollisionShape, to ensure emit_signal() only once.
