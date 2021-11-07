@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://menu.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Comic Game Loop - Mischief.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Assets/LonelyBird_20170411_121058.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Cartoon ladybug.svg" type="Texture" id=4]
 
 [node name="menu" type="Control"]
 anchor_right = 1.0
@@ -11,33 +13,58 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -800.0
+margin_top = -466.0
+margin_right = 11453.0
+margin_bottom = 6643.0
+rect_scale = Vector2( 0.130418, 0.130418 )
+texture = ExtResource( 3 )
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = 839.735
+margin_top = 314.305
+margin_right = 1158.74
+margin_bottom = 566.305
+rect_scale = Vector2( 0.803521, 0.803521 )
+texture = ExtResource( 4 )
+flip_h = true
+
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -128.0
-margin_top = -34.5
-margin_right = 128.0
-margin_bottom = 34.5
+margin_left = 76.6992
+margin_top = 48.0449
+margin_right = 268.699
+margin_bottom = 117.045
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="startButton" type="Button" parent="VBoxContainer"]
-margin_right = 256.0
+margin_right = 192.0
 margin_bottom = 20.0
 text = "Start"
 
 [node name="optionsButton" type="Button" parent="VBoxContainer"]
 margin_top = 24.0
-margin_right = 256.0
+margin_right = 192.0
 margin_bottom = 44.0
 text = "Options"
 
 [node name="quitButton" type="Button" parent="VBoxContainer"]
 margin_top = 48.0
-margin_right = 256.0
+margin_right = 192.0
 margin_bottom = 68.0
 text = "Quit"
 

@@ -21,7 +21,22 @@ Date collected: 2021-11-07
 Comic Game Loop - Mischief.mp3
 Source: https://gamesounds.xyz/Public%20Domain/Specialized/Comic%20Game%20Loop%20-%20Mischief.mp3
 License: https://gamesounds.xyz/Public%20Domain/LICENSE
-Date collected: 2021-11-
+Date collected: 2021-11-07
+
+Cartoon ladybug.svg
+Source: https://freesvg.org/index.php/cartoon-ladybug
+License: Public Domain https://creativecommons.org/licenses/publicdomain/
+Date collected: 2021-11-07
+
+LonelyBird_20170411_121058.png
+Source: My own watercolor painting from 2017
+License: 
+Date collected: 2021-11-07
+
+Press_Start_2P
+Source: https://fonts.google.com/specimen/Press+Start+2P?preview.text=Bug%20Off!&preview.text_type=custom#standard-styles
+License: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+Date collected: 2021-11-07
 
 <name_ref>
 Source: 
