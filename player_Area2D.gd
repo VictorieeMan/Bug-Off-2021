@@ -26,8 +26,17 @@ func _process(delta):
 		velocity.y += 1
 	if Input.is_action_pressed("ui_up"):
 		velocity.y -= 1
+	
+	#Let's the user adjust the movement speed
+	var v_modifyer = 1
+	if Input.is_action_pressed("ui_ctrl"): #Sneak
+		v_modifyer = 0.5
+	if Input.is_action_pressed("ui_shift"): #Rush
+		v_modifyer = 2
+	
+	#Adjusts the velocity
 	if velocity.length() > 0:
-		velocity = velocity.normalized() * speed
+		velocity = velocity.normalized() * speed * v_modifyer
 		$AnimatedSprite.play()
 	else:
 		$AnimatedSprite.stop()

@@ -72,6 +72,17 @@ text = "Quit"
 stream = ExtResource( 2 )
 autoplay = true
 
+[node name="Label" type="Label" parent="."]
+margin_left = 321.024
+margin_top = 72.96
+margin_right = 369.024
+margin_bottom = 86.96
+rect_scale = Vector2( 17.5661, 17.5661 )
+text = "Bug off!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="pressed" from="VBoxContainer/startButton" to="." method="_on_startButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/optionsButton" to="." method="_on_optionsButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/quitButton" to="." method="_on_quitButton_pressed"]
