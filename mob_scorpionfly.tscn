@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/scorpionfly1.svg" type="Texture" id=1]
+[ext_resource path="res://mob_scorpionfly.gd" type="Script" id=2]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -17,6 +18,7 @@ height = 3.48338
 [node name="mob_scorpionfly" type="RigidBody2D"]
 collision_mask = 0
 gravity_scale = 0.0
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
