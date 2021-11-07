@@ -46,5 +46,6 @@ func _on_mobTimer_timeout():
 	direction += rand_range(-PI/4 , PI/4)
 	mob.rotation=direction
 	#Set the velocity (Speed and direction vector)
-	mob.linear_velocity = Vector2(rand_range(mob.min_speed, mob.max_speed), 0)
+	var speed_scalar = 2
+	mob.linear_velocity = Vector2(rand_range(mob.min_speed, mob.max_speed)*speed_scalar, 0)
 	mob.linear_velocity = mob.linear_velocity.rotated(direction)
