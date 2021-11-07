@@ -15,8 +15,13 @@ Date collected: 2021-11-07
 
 The Planets - Mars.mp3
 Source: https://gamesounds.xyz/Public%20Domain/Classical/The%20Planets%20-%20Mars.mp3
-License: This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. 
+License: This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. https://gamesounds.xyz/Public%20Domain/LICENSE
 Date collected: 2021-11-07
+
+Comic Game Loop - Mischief.mp3
+Source: https://gamesounds.xyz/Public%20Domain/Specialized/Comic%20Game%20Loop%20-%20Mischief.mp3
+License: https://gamesounds.xyz/Public%20Domain/LICENSE
+Date collected: 2021-11-
 
 <name_ref>
 Source: 

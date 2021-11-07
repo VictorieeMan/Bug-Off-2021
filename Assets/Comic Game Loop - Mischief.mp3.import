@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Comic Game Loop - Mischief.mp3-85db3dd8be6b9ef68e777ba24abbcf59.mp3str"
+
+[deps]
+
+source_file="res://Assets/Comic Game Loop - Mischief.mp3"
+dest_files=[ "res://.import/Comic Game Loop - Mischief.mp3-85db3dd8be6b9ef68e777ba24abbcf59.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
