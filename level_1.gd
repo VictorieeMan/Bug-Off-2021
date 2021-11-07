@@ -23,6 +23,7 @@ func _on_player_Area2D_hit():
 
 func game_over():
 	$mobTimer.stop()
+	get_tree().change_scene("res://menu.tscn")
 	
 func new_game():
 	$player_Area2D.start($startPosition.position)

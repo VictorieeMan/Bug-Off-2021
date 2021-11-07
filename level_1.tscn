@@ -35,6 +35,7 @@ curve = SubResource( 1 )
 stream = ExtResource( 4 )
 autoplay = true
 
+[connection signal="hit" from="player_Area2D" to="." method="game_over"]
 [connection signal="hit" from="player_Area2D" to="." method="_on_player_Area2D_hit"]
 [connection signal="timeout" from="mobTimer" to="." method="_on_mobTimer_timeout"]
 [connection signal="timeout" from="startTimer" to="." method="_on_startTimer_timeout"]
