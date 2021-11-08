@@ -10,7 +10,7 @@ _data = {
 "points": PoolVector2Array( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1600, 0 )
 }
 
-[node name="level_x" type="Node"]
+[node name="level_1" type="Node"]
 script = ExtResource( 1 )
 mob_scorpionfly = ExtResource( 2 )
 
@@ -33,9 +33,10 @@ curve = SubResource( 1 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
-autoplay = true
 
-[connection signal="hit" from="player_Area2D" to="." method="game_over"]
 [connection signal="hit" from="player_Area2D" to="." method="_on_player_Area2D_hit"]
+[connection signal="hit" from="player_Area2D" to="." method="game_over"]
 [connection signal="timeout" from="mobTimer" to="." method="_on_mobTimer_timeout"]
 [connection signal="timeout" from="startTimer" to="." method="_on_startTimer_timeout"]
+[connection signal="finished" from="AudioStreamPlayer" to="." method="_on_AudioStreamPlayer_finished"]
+[connection signal="ready" from="AudioStreamPlayer" to="." method="_on_AudioStreamPlayer_ready"]

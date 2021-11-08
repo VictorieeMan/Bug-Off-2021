@@ -1,4 +1,4 @@
-extends Control
+extends Node
 
 
 # Declare member variables here. Examples:
@@ -16,13 +16,5 @@ func _ready():
 #	pass
 
 
-func _on_startButton_pressed():
-	get_tree().change_scene("res://level_0.tscn")
-
-
-func _on_optionsButton_pressed():
-	pass # Replace with function body.
-
-
-func _on_quitButton_pressed():
-	get_tree().quit()
+func _on_intro_length_timeout():
+	get_tree().change_scene("res://level_1.tscn")

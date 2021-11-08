@@ -11,5 +11,5 @@ dest_files=[ "res://.import/And Now For That Massive Coronary.mp3-7d231046ce589e
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

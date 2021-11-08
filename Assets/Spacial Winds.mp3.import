@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Spacial Winds.mp3-e19338e1add532f31d5118fbaceb953a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Spacial Winds.mp3"
+dest_files=[ "res://.import/Spacial Winds.mp3-e19338e1add532f31d5118fbaceb953a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

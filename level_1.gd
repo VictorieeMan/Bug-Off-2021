@@ -9,6 +9,7 @@ export (PackedScene) var mob_scorpionfly
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$AudioStreamPlayer.play()
 	randomize()
 	new_game()
 
@@ -50,3 +51,7 @@ func _on_mobTimer_timeout():
 	var speed_scalar = 2
 	mob.linear_velocity = Vector2(rand_range(mob.min_speed, mob.max_speed)*speed_scalar, 0)
 	mob.linear_velocity = mob.linear_velocity.rotated(direction)
+
+
+func _on_AudioStreamPlayer_finished():
+	get_tree().change_scene("res://menu.tscn")
