@@ -1,9 +1,14 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://menu.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Comic Game Loop - Mischief.mp3" type="AudioStream" id=2]
 [ext_resource path="res://Assets/LonelyBird_20170411_121058.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Cartoon ladybug.svg" type="Texture" id=4]
+[ext_resource path="res://Assets/Press_Start_2P/PressStart2P-Regular.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 18
+font_data = ExtResource( 5 )
 
 [node name="menu" type="Control"]
 anchor_right = 1.0
@@ -52,19 +57,19 @@ __meta__ = {
 }
 
 [node name="startButton" type="Button" parent="VBoxContainer"]
-margin_right = 192.0
+margin_right = 191.0
 margin_bottom = 20.0
 text = "Start"
 
 [node name="optionsButton" type="Button" parent="VBoxContainer"]
 margin_top = 24.0
-margin_right = 192.0
+margin_right = 191.0
 margin_bottom = 44.0
 text = "Options"
 
 [node name="quitButton" type="Button" parent="VBoxContainer"]
 margin_top = 48.0
-margin_right = 192.0
+margin_right = 191.0
 margin_bottom = 68.0
 text = "Quit"
 
@@ -79,6 +84,18 @@ margin_right = 369.024
 margin_bottom = 86.96
 rect_scale = Vector2( 17.5661, 17.5661 )
 text = "Bug off!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 340.0
+margin_top = 275.611
+margin_right = 852.0
+margin_bottom = 307.611
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "The Ultimate Bug"
 __meta__ = {
 "_edit_use_anchors_": false
 }
