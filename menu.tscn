@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://menu.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Comic Game Loop - Mischief.mp3" type="AudioStream" id=2]
@@ -7,6 +7,8 @@
 [ext_resource path="res://Assets/Press_Start_2P/PressStart2P-Regular.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://Assets/LonelyBird_20170411_121058_Croped.png" type="Texture" id=6]
 [ext_resource path="res://Assets/Cartoon ladybug_Eyeless.png" type="Texture" id=7]
+[ext_resource path="res://Lady_Eye_L.gd" type="Script" id=8]
+[ext_resource path="res://Lady_Eye_R.gd" type="Script" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 22
@@ -42,6 +44,9 @@ __meta__ = {
 [node name="LadyBug" type="Control" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="LadyBug_Body" type="TextureRect" parent="LadyBug"]
 margin_left = 994.479
@@ -54,26 +59,16 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Lady_Eye_L" type="TextureRect" parent="LadyBug"]
-margin_left = 1027.72
-margin_top = 491.542
-margin_right = 1067.72
-margin_bottom = 531.542
-texture = ExtResource( 4 )
-flip_h = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Lady_Eye_R" type="TextureRect" parent="LadyBug"]
-margin_left = 1063.47
-margin_top = 491.112
-margin_right = 1103.47
-margin_bottom = 531.112
+[node name="Lady_Eye_R" type="Sprite" parent="LadyBug"]
+position = Vector2( 1076.93, 499.004 )
 texture = ExtResource( 3 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+flip_h = true
+script = ExtResource( 9 )
+
+[node name="Lady_Eye_L" type="Sprite" parent="LadyBug"]
+position = Vector2( 1038.09, 498.791 )
+texture = ExtResource( 4 )
+script = ExtResource( 8 )
 
 [node name="menuButtons" type="Control" parent="."]
 margin_left = 1032.67
