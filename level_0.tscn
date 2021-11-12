@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://player_Area2D.tscn" type="PackedScene" id=1]
 [ext_resource path="res://level_0.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Spacial Winds.mp3" type="AudioStream" id=3]
+[ext_resource path="res://typedMessage.tscn" type="PackedScene" id=4]
 
 [node name="level_0" type="Node"]
 script = ExtResource( 2 )
@@ -42,5 +43,8 @@ text = "Man of earthy mind,  do you belive in me?"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="typedMessage" parent="." instance=ExtResource( 4 )]
+position = Vector2( 248, 200 )
 
 [connection signal="timeout" from="intro_length" to="." method="_on_intro_length_timeout"]

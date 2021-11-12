@@ -53,6 +53,18 @@ Source: https://gamesounds.xyz/Public%20Domain/Cinematic/Spacial%20Winds.mp3
 License: Public Domain https://creativecommons.org/licenses/publicdomain/
 Date collected: 2021-11-08
 
+typedMessage.gd // Major parts of it directly inspiered
+Source: Special thanks to erdavids for sharing educational script on youtube and github gists
+https://gist.github.com/erdavids/db39bd67dc420ed41ad385334154bc25
+https://www.youtube.com/watch?v=Cp9g2GY7aTg
+License: <Not available>
+Date collected: 2021-11-12
+
+laptop-keyboard-1.wav
+Source: https://gamesounds.xyz/?dir=Sound%20Effects/Tools
+License: https://gamesounds.xyz/Sound%20Effects/LICENSE
+Date collected: 2021-11-12
+
 <name_ref>
 Source: 
 License: 

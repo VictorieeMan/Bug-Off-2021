@@ -107,7 +107,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ultimateBug" type="Label" parent="titleLabels"]
+[node name="bugOff" type="Label" parent="titleLabels"]
 margin_left = 370.812
 margin_top = 69.9246
 margin_right = 418.812
@@ -118,7 +118,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="bugOff" type="Label" parent="titleLabels"]
+[node name="ultimateBug" type="Label" parent="titleLabels"]
 margin_left = 389.882
 margin_top = 318.898
 margin_right = 741.882
