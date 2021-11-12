@@ -29,7 +29,8 @@ func start_dialogue():
 
 func stop_dialogue():
 	#get_parent().remove_child(self)
-	#queue_free()
+	yield(get_tree().create_timer(read_time*2), "timeout") #Not an optimal solution, I wiuld like to find a way for queue_free() to dynamically not get executed until all the text is written.
+	queue_free()
 	pass
 
 func _on_next_char_timeout():

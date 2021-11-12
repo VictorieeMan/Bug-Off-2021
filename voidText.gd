@@ -10,7 +10,8 @@ func _ready():
 	var d = dialogue.instance()
 	d.messages = [
 		"In the beginning there were nothing.",
-		"And the world was without form, and void; and darkness was upon the face of the deep."
+		"And the world was without form."#,
+		#"And darkness was upon the face of the deep."
 	]
 	add_child(d)
 
