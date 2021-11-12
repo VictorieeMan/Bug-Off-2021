@@ -3,8 +3,8 @@ extends Node2D
 
 # Declare member variables here. Examples:
 var messages = [
-	"Man of earthly mind!",
-	"Do you belive in me?"
+	"Man of thy earthly mind!",
+	"Do you belive in me? Do you belive in me?"
 ]
 
 var typing_speed = .1
@@ -16,7 +16,6 @@ var current_char = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$AudioStreamPlayer2D.play()
 	start_dialogue()
 
 func start_dialogue():
@@ -26,9 +25,9 @@ func start_dialogue():
 	
 	$next_char.set_wait_time(typing_speed)
 	$next_char.start()
+	$AudioStreamPlayer2D.play(0)
 
 func stop_dialogue():
-	$AudioStreamPlayer2D.stop()
 	#get_parent().remove_child(self)
 	#queue_free()
 	pass
@@ -42,8 +41,8 @@ func _on_next_char_timeout():
 		current_char +=1
 	else:
 		$next_char.stop()
-		$AudioStreamPlayer2D.stop()
 		$next_message.set_wait_time(read_time)
+		$AudioStreamPlayer2D.stop()
 		$next_message.start()
 
 func _on_next_message_timeout():
@@ -53,7 +52,7 @@ func _on_next_message_timeout():
 		current_message += 1
 		display = ""
 		current_char = 0
-		$AudioStreamPlayer2D.play()
+		$AudioStreamPlayer2D.play(0)
 		$next_char.start()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
