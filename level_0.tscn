@@ -30,6 +30,7 @@ __meta__ = {
 [node name="player_Area2D" parent="." instance=ExtResource( 1 )]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
 margin_left = 664.0
 margin_top = 352.0
 margin_right = 874.0
