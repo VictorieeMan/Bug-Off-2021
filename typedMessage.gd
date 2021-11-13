@@ -2,6 +2,8 @@ extends Node2D
 
 
 # Declare member variables here. Examples:
+signal doneTyping
+
 var messages = [
 	"Man of thy earthly mind!",
 	"Do you belive in me? Do you belive in me?"
@@ -29,8 +31,9 @@ func start_dialogue():
 
 func stop_dialogue():
 	#get_parent().remove_child(self)
-	yield(get_tree().create_timer(read_time*2), "timeout") #Not an optimal solution, I wiuld like to find a way for queue_free() to dynamically not get executed until all the text is written.
+	yield(get_tree().create_timer(read_time*2), "timeout") #Not an optimal solution, I would like to find a way for queue_free() to dynamically not get executed until all the text is written.
 	queue_free()
+	emit_signal("doneTyping")
 	pass
 
 func _on_next_char_timeout():
@@ -48,7 +51,7 @@ func _on_next_char_timeout():
 
 func _on_next_message_timeout():
 	if(current_message == len(messages) - 1):
-		stop_dialogue()
+		stop_dialogue() #Why is this executed before full message is written?
 	else:
 		current_message += 1
 		display = ""

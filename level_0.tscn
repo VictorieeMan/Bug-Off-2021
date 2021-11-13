@@ -11,6 +11,7 @@ script = ExtResource( 2 )
 [node name="intro_length" type="Timer" parent="."]
 wait_time = 16.0
 one_shot = true
+autostart = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
@@ -37,13 +38,15 @@ margin_right = 874.0
 margin_bottom = 400.0
 rect_scale = Vector2( 5.0713, 5.0713 )
 bbcode_enabled = true
-bbcode_text = "Man of earthy mind, [wave] do you belive in me?"
-text = "Man of earthy mind,  do you belive in me?"
+bbcode_text = "Man of thy earthy mind, [wave] do you belive in me?"
+text = "Man of thy earthy mind,  do you belive in me?"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="voidText" type="Position2D" parent="."]
+[node name="voiceOfTheVoid" type="Node" parent="."]
+
+[node name="voidText" type="Position2D" parent="voiceOfTheVoid"]
 position = Vector2( 512, 512 )
 script = ExtResource( 4 )
 
