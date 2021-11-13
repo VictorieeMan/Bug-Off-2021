@@ -65,11 +65,15 @@ Source: https://gamesounds.xyz/?dir=Sound%20Effects/Tools
 License: https://gamesounds.xyz/Sound%20Effects/LICENSE
 Date collected: 2021-11-12
 
-In the beginning there were nothing.
-And the world was without form, and void; and darkness was upon the face of the deep.
+aiga_down_arrow_bg.svg
+Source: https://publicdomainvectors.org/en/free-clipart/AIGA-back-or-down-inverted-arrow-sign/17778.html
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Date collected: 2021-11-13
 
 <name_ref>
 Source: 
 License: 
 Date collected: 2021-11-
 
+In the beginning there were nothing.
+And the world was without form, and void; and darkness was upon the face of the deep.

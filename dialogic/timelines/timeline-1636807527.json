@@ -4,13 +4,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "First text ever written"
+			"text": "Then the programer started typing."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Second line ever written."
+			"text": "\"Hello World!\""
 		}
 	],
 	"metadata": {

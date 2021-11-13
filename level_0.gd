@@ -10,8 +10,8 @@ func _ready():
 	message1()
 	yield(get_tree().create_timer(10), "timeout")
 	
-	var dialog = Dialogic.start("theVoid")
-	add_child(dialog)
+	var voidTerminal = Dialogic.start("theVoid")
+	add_child(voidTerminal)
 	pass
 
 func message1():
