@@ -4,23 +4,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Then the programer started typing.\nLet's create the heavens and the earth.\nLet there be light: and there was light."
-		},
-		{
-			"character": "character-1636810548.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "\"Hello World!\""
+			"text": "Then the programer started typing."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "The programer didn't like bugs. And started debugging"
-		},
-		{
-			"change_scene": "res://level_1.tscn",
-			"event_id": "dialogic_041"
+			"text": "\"Hello World!\""
 		}
 	],
 	"metadata": {
