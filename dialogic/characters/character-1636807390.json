@@ -1,0 +1,20 @@
+{
+	"color": "#ff750085",
+	"description": "The voice of the Void!",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1636807390.json",
+	"mirror_portraits": false,
+	"name": "voidVoice",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}
