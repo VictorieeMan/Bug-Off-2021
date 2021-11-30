@@ -54,4 +54,4 @@ func _on_mobTimer_timeout():
 
 
 func _on_AudioStreamPlayer_finished():
-	get_tree().change_scene("res://menu.tscn")
+	get_tree().change_scene("res://endCredits.tscn")
