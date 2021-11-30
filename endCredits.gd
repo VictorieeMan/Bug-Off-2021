@@ -20,6 +20,9 @@ var line_timer := 0.0
 var curr_line := 0
 var lines := []
 
+func _ready():
+	$AnimatedSprite.frame = 0
+
 var credits = [
 	[
 		"The End of this Demo"
