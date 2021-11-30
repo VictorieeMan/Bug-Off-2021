@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Opening Theme B.mp3-cbc656cbee6052cb4c2fce22d178b9fc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Opening Theme B.mp3"
+dest_files=[ "res://.import/Opening Theme B.mp3-cbc656cbee6052cb4c2fce22d178b9fc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

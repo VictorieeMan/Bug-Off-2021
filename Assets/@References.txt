@@ -75,6 +75,16 @@ Source: https://gamesounds.xyz/Public%20Domain/70s%20Sci%20Fi/Opening%20Theme%20
 License: Public Domain
 Date collected: 2021-11-30
 
+animal-ga1a10790c_640.png
+Source: https://pixabay.com/sv/vectors/djur-skalbagge-skalbagge-insekt-2028129/
+License: 
+Date collected: 2021-11-30
+
+animal-gc1c23aed2_640.png
+Source: https://pixabay.com/sv/vectors/djur-skalbagge-skalbagge-insekt-2029705/
+License: 
+Date collected: 2021-11-30
+
 <name_ref>
 Source: 
 License: 
