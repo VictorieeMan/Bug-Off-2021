@@ -429,20 +429,6 @@ __meta__ = {
 stream = ExtResource( 1 )
 autoplay = true
 
-[node name="TextureRect" type="TextureRect" parent="."]
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = 158.74
-margin_top = -682.582
-margin_right = 1158.74
-margin_bottom = 317.418
-texture = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="creditsContainer" type="Control" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -454,9 +440,24 @@ __meta__ = {
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = 259.0
 margin_top = -14.0
+margin_bottom = 2.0
 custom_fonts/font = ExtResource( 4 )
-align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 158.74
+margin_top = -682.582
+margin_right = 1158.74
+margin_bottom = 317.418
+texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -476,5 +477,5 @@ rotation = 1.5708
 scale = Vector2( 0.4, 0.4 )
 frames = SubResource( 1 )
 animation = "New Anim"
-frame = 188
+frame = 106
 playing = true

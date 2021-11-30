@@ -1,8 +1,8 @@
 extends Node
 
-const section_time := 2.0
-const line_time := 0.3
-const base_speed := 100
+const section_time := 2
+const line_time := 0.8
+const base_speed := 32
 const speed_up_multiplier := 10.0
 const title_color := Color.blueviolet
 
@@ -22,37 +22,39 @@ var lines := []
 
 var credits = [
 	[
-		"A game Concept by The Victoriee Man"
+		"The End of this Demo"
 	],[
-		"Programming",
-		"Programmer Name",
-		"Programmer Name 2"
+		"About",
+		"You have been playing 'The Ultimate Bug' concept demo.",
+		"Created for the 'Game Off 2021' gaming jam at itch.io",
+		"",
+		"This was my first ever attempt at designing a full game.",
+		"I didn't have time to finish it for the gaming jam deadline.",
+		"",
+		"But this was fun and I like the artstyle I have put together.",
+		"There's a story written and I'm likely to finish the full game.",
+		"If you want updates follow the game over at:",
+		"",
+		"https://victorieeman.itch.io/the-ultimate-bug-2021"
 	],[
-		"Art",
-		"Artist Name"
-	],[
-		"Music",
-		"Musician Name"
-	],[
-		"Sound Effects",
-		"SFX Name"
-	],[
-		"Testers",
-		"Name 1",
-		"Name 2",
-		"Name 3"
+		"Programming & Game Design",
+		"VictorieeMan"
 	],[
 		"Tools used",
 		"Developed with Godot Engine",
 		"https://godotengine.org/license",
 		"",
-		"Art created with My Favourite Art Program",
-		"https://myfavouriteartprogram.com"
-	],[
-		"Special thanks",
-		"My parents",
-		"My friends",
-		"My pet rabbit"
+		"Artwork and game resources:",
+		"Created by Myself or borrowed stuff from the following sites",
+		"https://freesvg.org",
+		"https://gamesounds.xyz",
+		"https://fonts.google.com",
+		"https://pixabay.com",
+		"https://publicdomainvectors.org",
+		"https://github.com",
+		"",
+		"Publicdomain and or Non-attribution requiered resources",
+		"but more detailed references are available in the @Reference.txt file"
 	]
 ]
 
