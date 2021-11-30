@@ -85,6 +85,16 @@ Source: https://pixabay.com/sv/vectors/djur-skalbagge-skalbagge-insekt-2029705/
 License: 
 Date collected: 2021-11-30
 
+laptop-2298286.svg
+Source: https://pixabay.com/sv/vectors/b%C3%A4rbar-dator-dator-b%C3%A4rbar-st-2298286/?download
+License: 
+Date collected: 2021-11-30
+
+The Endcredits script
+Source: https://github.com/benbishopnz/godot-credits
+License: MIT License Copyright (c) 2019 Ben Bishop
+Date collected: 2021-11-30
+
 <name_ref>
 Source: 
 License: 
