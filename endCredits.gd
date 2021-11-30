@@ -93,6 +93,7 @@ func _process(delta):
 func finish():
 	if not finished:
 		finished = true
+		get_tree().change_scene("res://menu.tscn")
 		# NOTE: This is called when the credits finish
 		# - Hook up your code to return to the relevant scene here, eg...
 		#get_tree().change_scene("res://scenes/MainMenu.tscn")
